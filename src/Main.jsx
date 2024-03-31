@@ -14,6 +14,8 @@ const nodeTypes = {
   custom: CustomNode,
 };
 
+const proOptions = { hideAttribution: true };
+
 let id = 1;
 const getId = () => id++;
 
@@ -122,6 +124,7 @@ const Main = () => {
                 fitView
                 onDrop={onDrop}
                 onDragOver={onDragOver}
+                proOptions={proOptions}
                 className="bg-teal-50"
               ></ReactFlow>
             </div>

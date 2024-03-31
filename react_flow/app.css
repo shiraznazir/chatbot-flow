@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .text-updater-node {
+    height: 50px;
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+  }
+  
+  .text-updater-node label {
+    display: block;
+    color: #777;
+    font-size: 12px;
+  }
+  
+  .react-flow__node-default{
+    width: 20vw;
+    border-width: 0; 
+    padding: 0;
+    box-shadow: 10px;
+  }
+
+  .react-flow__node-default:focus{
+    border-width: 0; 
+    padding: 0;
+  } */

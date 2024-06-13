@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@300;400;500;600;800&family=Work+Sans");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto slab", serif;
+  box-sizing: border-box;
+  z-index: -100;
+  color: #1f2937;
+}
+
+.clip-path-1 {
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 0% 100%);
+}
+
+.clip-path-2 {
+  clip-path: polygon(0 0, 100% 0, 77% 100%, 0% 100%);
+}
+
+
+
+.react-multi-carousel__arrow {
+  color: red;
+}
+
+.react-multiple-carousel__arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  background-color: #000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 0;
+  @media (max-width: 750px) {
+    background-color: transparent;
+    top: 40%;
+  }
+}
+.react-multiple-carousel__arrow:hover{
+  @media (max-width: 750px) {
+    background-color: transparent;
+    top: 40%;
+  }
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 0;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: 0 ;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.max-height {
+  max-height: 18rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .max-height {
+    max-height: 17.5rem;
+  }
+}
+
+@media only screen and (min-height: 730px) {
+  .max-height {
+    max-height: 28rem;
+  }
+}
+
+@media only screen and (min-height: 930px) {
+  .max-height {
+    max-height: 31rem;
+  }
+}
+
+@media only screen and (min-height: 1130px) {
+  .max-height {
+    max-height: 38rem;
+  }
+}
+
+/* .carousel-container {
+  width: 80%; 
+  height: 400px; 
+} */
+
+/* .react-multiple-carousel__arrow--right:before,
+.react-multiple-carousel__arrow--left:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
+  transform: rotate(-45deg);
+} */
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+
+.scroll-hidden{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
